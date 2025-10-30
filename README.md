@@ -33,7 +33,7 @@ Further documentation:
     . bin/activate
     bin/hmip_generate_auth_token
 
-# systemd service erstellen
+# systemd service creation
 
 sudo nano /etc/systemd/system/hmip_elli_Heizungsschalter.service
 
@@ -58,7 +58,7 @@ sudo nano /etc/systemd/system/hmip_elli_Heizungsschalter.service
     WantedBy=multi-user.target
 
 
-# service aktivieren
+# service activation
 
     sudo systemctl daemon-reload  
     sudo systemctl enable hmip_elli_Heizungsschalter.service  
